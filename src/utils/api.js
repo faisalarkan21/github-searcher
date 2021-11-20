@@ -2,15 +2,8 @@ import axios from "axios";
 
 export const Api = () => ({
   Config: () => {
-    const headers = {};
-
-    const githubToken = process.env.REACT_APP_GITHUB_TOKEN;
-    const baseURL = process.env.REACT_APP_API_ENDPOINT;
-
-    headers["Authorization"] = `token ${githubToken}`;
     const client = {
-      baseURL: baseURL,
-      headers,
+      baseURL: process.env.REACT_APP_API_ENDPOINT,
     };
     return client;
   },
