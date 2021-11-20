@@ -1,0 +1,83 @@
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.d-block {
+  display: block;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.ml-3 {
+  margin-left: 1rem;
+}
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+html,
+input {
+  font-family: "roboto";
+}
+
+input,
+select {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 2px solid #ccc;
+}
+
+.container {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 2rem 2rem 2rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.item-loading {
+  margin: 2rem !important;
+}
+
+.Toastify__toast-body {
+  white-space: pre-line;
+}
+.error-message {
+  white-space: pre-line;
+  font-size: 15px;
+  color: #f44336;
+}
+.message {
+  font-size: 15px;
+}
