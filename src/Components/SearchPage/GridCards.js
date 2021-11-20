@@ -59,8 +59,7 @@ export const GridCards = () => {
         .fill("")
         .map(() => (
           <div className="item-loading">
-            {" "}
-            <GridPageLoading />{" "}
+            <GridPageLoading />
           </div>
         ));
     } else {
