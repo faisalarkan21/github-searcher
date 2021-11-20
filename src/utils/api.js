@@ -8,6 +8,11 @@ export const Api = () => ({
     const baseURL = process.env.REACT_APP_API_ENDPOINT;
 
     headers["Authorization"] = `token ${githubToken}`;
+
+    if (!githubToken) {
+      delete headers["Authorization"];
+    }
+
     const client = {
       baseURL: baseURL,
       headers,
